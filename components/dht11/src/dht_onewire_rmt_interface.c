@@ -13,7 +13,7 @@
 #define DHT_RMT_MAX_RECEIVE_BYTE 5 /*!< 2bytes Humi + 2bytes Temp + 1byte Crc*/
 #define DHT_RMT_MAX_RECEIVE_BIT 40
 
-#define DHT_EXPECTED_RX_SYMBOL_NUM 43 /*!< 1bit start + 2bits data + 40bits response */
+#define DHT_EXPECTED_RX_SYMBOL_NUM 42 /*!< 2bits data + 40bits response */
 
 static const char *TAG = "1-wire.rmt";
 
