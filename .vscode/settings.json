@@ -1,0 +1,10 @@
+{
+  "C_Cpp.intelliSenseEngine": "default",
+  "clangd.path": "/home/nghiatd/.espressif/tools/esp-clang/esp-20.1.1_20250829/esp-clang/bin/clangd",
+  "clangd.arguments": [
+    "--background-index",
+    "--query-driver=**",
+    "--compile-commands-dir=/home/nghiatd/Documents/Projects/ESP/Mini-Clock-Esp32s3/build"
+  ],
+  "idf.currentSetup": "/home/nghiatd/.espressif/v6.0/esp-idf"
+}
