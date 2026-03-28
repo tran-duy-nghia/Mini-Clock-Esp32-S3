@@ -6,5 +6,11 @@
     "--query-driver=**",
     "--compile-commands-dir=/home/nghiatd/Documents/Projects/ESP/Mini-Clock-Esp32s3/build"
   ],
-  "idf.currentSetup": "/home/nghiatd/.espressif/v6.0/esp-idf"
+  "idf.currentSetup": "/home/nghiatd/.espressif/v6.0/esp-idf",
+  "idf.openOcdConfigs": [
+    "board/esp32s3-builtin.cfg"
+  ],
+  "idf.customExtraVars": {
+    "IDF_TARGET": "esp32s3"
+  }
 }
